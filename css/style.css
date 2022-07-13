@@ -114,6 +114,7 @@ body {
 }
 
 body.lock {
+  -webkit-overflow: hidden;
   overflow: hidden;
 }
 
