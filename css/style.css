@@ -481,6 +481,14 @@ main {
     gap: 30px;
     top: 0;
   }
+  .header__content.active nav {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+  }
+  .header__content.active li {
+    font-size: 17px;
+  }
 }
 
 .health {
